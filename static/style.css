@@ -1,1 +1,33 @@
+body {  
+    background: #ffebee;  
+    font-family: Arial, sans-serif;  
+}  
 
+.chat-container {  
+    width: 90%;  
+    margin: auto;  
+    text-align: center;  
+}  
+
+h1 {  
+    color: #e91e63;  
+}  
+
+.chat-box {  
+    height: 300px;  
+    border: 2px dashed #f48fb1;  
+    margin: 10px;  
+    overflow-y: scroll;  
+}  
+
+input, button {  
+    padding: 10px;  
+    margin: 5px;  
+}  
+
+button {  
+    background: #e91e63;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+}  
